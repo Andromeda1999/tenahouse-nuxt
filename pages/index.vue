@@ -1822,7 +1822,6 @@
 </template>
 
 <style scoped>
-/*! CSS Used from: https://www.devsnews.com/template/glee/glee/assets/css/fontawesome.min.css */
 .fa,
 .fab,
 .fal,
