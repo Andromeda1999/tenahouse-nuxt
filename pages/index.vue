@@ -821,13 +821,13 @@
             </div>
             <div class="row">
               <div
-                v-for="(item, index) in getCategory"
+                v-for="(item, index) in 5"
                 :key="index"
                 class="col-xl-3 col-lg-3 col-md-6"
               >
                 <div class="product-wrap mb-30">
                   <div class="product-thumb">
-                    <img :src="item.image" alt="product" />
+                    <img :src="item" alt="product" />
                     <div class="product-action">
                       <a href="#"><i class="far fa-search"></i></a>
                       <a href="#"><i class="far fa-shopping-cart"></i></a>
@@ -836,7 +836,7 @@
                   </div>
                   <div class="product-content">
                     <h4>
-                      <a href="product-single.html">{{ item.name }}</a>
+                      <a href="product-single.html">{{ item }}</a>
                     </h4>
                     <span class="price">S/. 60.00</span>
                   </div>
@@ -1820,13 +1820,6 @@
     </body>
   </html>
 </template>
-
-<script>
-import { eCommerceMixinHome } from '@/mixins/eCommerce/eCommerceMixin.js'
-export default {
-  mixins: [eCommerceMixinHome],
-}
-</script>
 
 <style scoped>
 /*! CSS Used from: https://www.devsnews.com/template/glee/glee/assets/css/fontawesome.min.css */
