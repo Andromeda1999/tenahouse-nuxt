@@ -59,7 +59,12 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    baseURL: 'https://sltics.com/api/v1/',
+    // headers: {},
+    // withCredentials: true
+    // ...other options
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
